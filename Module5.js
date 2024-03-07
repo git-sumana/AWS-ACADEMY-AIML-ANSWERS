@@ -1,126 +1,30 @@
-AWS Academy Cloud Foundation Module 5 Quiz Answers 
-
-Q1. Which AWS networking service enables a company to create a virtual network within AWS
-
-A. AWS Config
-B. Amazon Route 53
-C. AWS Direct Connect
-D. Amazon VPC
-
-Answer: 
-
-               D. Amazon VPC
-
-Q2. With Amazon Virtual Private Cloud (Amazon VPC), what is the smallest size subnet you can 
-       have in a VPC?
-
-A. /28
-B. /30
-C. /24
-D. /26
-
-Answer: 
-                 A. /28
-
-Q3. With Amazon Virtual Private Cloud (Amazon VPC), what is the maximum size IP address 
-       range you can have in a VPC?
-
-A. /28
-B. /16
-C. /30
-D. /24
-
-Answer: 
-                B. /16
+1. with amazon virtual private cloud what is the smallest sized subnet u can have in a vpc
+Ans. /28
 
 
-Q4. You need to allow resources in a private subnet to access the internet. Which of the following 
-       must be present to enable this access?
+2. with amazon virtual private cloud what is the max size ip address range u can have in a vpc
+Ans: /16
 
-A. Network access control lists
-B. Security groups
-C. NAT gateway
-D. Route tables
+3. you need to allow resources in a private subnet to access the internet. what must be present to enable this access
+Ans: NAT gateway
 
-Answer: 
-  
-              C. NAT gateway
+4. which aws networking service enables a company to create a virtual network within aws
+Ans: amazon virtual private cloud
 
+5. true or false, private subnets have direct access to the internet
+false
 
-Q5. Which AWS networking service enables a company to create a virtual network within AWS?
+6. which component of aws global infrastructure does amazon cloudfront use to ensure low-latency delivery
+Ans: aws edge locations
 
-A. Amazon Virtual Private Cloud (Amazon VPC)
-B. AWS Direct Connect
-C. Amazon Route 53
-D. AWS Config
+7. which of the following is an optional security control that can be applied at the subnet layer of a vpc
+Ans: network acl
 
-Answer: 
-               A. Amazon VPC
+8. what happens when you use Amazon virtual private cloud to create a new vpc
+Ans: a main route table is created by default
 
+9. which of the following can be used to protect amazon elastic compute cloud instances hosted in aws
+Ans: security group- acts as a virtual firewall for your instance to control inbound and outbound traffic
 
-Q7. T/F, Private subnets have direct access to the internet.
-
-Answer: 
-              False
-
-
-Q8. Which component of AWS Global Infrastructure does Amazon CloudFront use to ensure 
-       low-latency deliver?
-
-A. AWS Regions
-B. AWS Availability Zones
-C. AWS edge locations
-D. Amazon Virtual Private Cloud (Amazon VPC)
-
-Answer: 
-              C. AWS edge locations
-
-
-
-Q9. Which of the following is an optional security control that can be applied at the subnet layer 
-
-       of a VPC?
-
-A. Network ACL
-B. Security group
-C. Web application firewall
-D. Firewall
-
-Answer: 
-                A. Network ACL
-
-
-Q10. What happens when you use Amazon Virtual Private Cloud (Amazon VPC) to create a 
-         new VPC?
-
-A. Three subnets are created by default in one Availability Zone
-B. A main route table is created by default
-C. Three subnets are created by default: one for each Availability Zone
-D. An internet gateway is created by default.
-
-Answer: 
-               B. A main route table is created by default
-
-Q11. Which of the following can be used to protect Amazon Elastic Compute Cloud 
-         (Amazon EC2)  instances hosted in AWS?
-
-A. Internet Gateway
-B. All of the above
-C. AMI
-D. Security group
-
-Answer:
-              D. Security group
-
-Q12. You are a solutions architect who works at a large retail company that is migrating its 
-         existing infrastructure to AWS. You recommend that they use a custom VPC. When 
-         you create a VPC, you assign it to an IPv4 Classless Inter-Domain Routing (CIDR) block 
-         of 10.0.1.0/24 (which has 256 total IP addresses). How many IP addresses are available?
-
-A. 251
-B. 256
-C. 246
-D. 250
-
-Answer: 
-               [A]  251
+10. when you create a vpc, you assign it to an IPv4 Classless Inter-Domain Routing CIDR block of 10.0.1.0/24 (which has 256 total IP addresses). How many IP addresses are available?
+Ans: 251 because 5 are reserved
