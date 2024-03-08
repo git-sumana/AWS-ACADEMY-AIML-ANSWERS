@@ -1,4 +1,4 @@
-Enter file contents here# AWS Academy Cloud Answers Repository
+# AWS Academy Cloud Answers Repository
 
 Welcome to the AWS Academy AIML Answers Repository! This repository is dedicated to providing resources and solutions for learning and understanding AWS Cloud with Machine Learning concepts, particularly focused on the AWS Academy - AIML curriculum.
 
